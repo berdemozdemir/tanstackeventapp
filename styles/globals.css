@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        @apply box-border
+    }
+
+    body {
+        @apply m-0 font-sans bg-gradient-to-b from-[#222c31] to-[#111d32] min-w-[100vh]
+    }
+
+    .button {
+        @apply cursor-pointer py-2 px-6 border-none bg-[#e30d7c] text-[#fff] rounded shadow font-bold 
+    }
+}
